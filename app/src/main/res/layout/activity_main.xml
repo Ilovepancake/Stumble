@@ -22,111 +22,124 @@
 
     </android.support.v4.view.ViewPager>
 
+
     <LinearLayout
         android:layout_width="match_parent"
+        android:orientation="vertical"
         android:layout_alignParentBottom="true"
-        android:orientation="horizontal"
-        android:gravity="center"
         android:layout_height="70dp">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
 
-            <ImageButton
-                android:id="@+id/previousBtn"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/ic_action_previous"/>
-            <TextView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
                 android:layout_width="wrap_content"
-                android:id="@+id/previousText"
-                android:text="Previous."
-                android:textSize="11sp"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="5dp"
-                android:layout_height="wrap_content" />
-        </RelativeLayout>
+                android:layout_height="wrap_content">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/previousBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_action_previous"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/previousText"
+                    android:text="Previous."
+                    android:textSize="11sp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
 
-            <ImageButton
-                android:id="@+id/nextBtn"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/ic_action_next"/>
-            <TextView
+            <RelativeLayout
                 android:layout_width="wrap_content"
-                android:id="@+id/nextText"
-                android:text="Next."
-                android:textSize="11sp"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="10dp"
-                android:layout_height="wrap_content" />
-        </RelativeLayout>
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/nextBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_action_next"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/nextText"
+                    android:text="Next."
+                    android:textSize="11sp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
 
-            <ImageButton
-                android:id="@+id/shareBtn"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/ic_action_share"/>
-            <TextView
+            <RelativeLayout
                 android:layout_width="wrap_content"
-                android:id="@+id/shareText"
-                android:text="Share."
-                android:textSize="11sp"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="10dp"
-                android:layout_height="wrap_content" />
-        </RelativeLayout>
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/shareBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_action_share"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/shareText"
+                    android:text="Share."
+                    android:textSize="11sp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
 
-            <ImageButton
-                android:id="@+id/pinBtn"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/ic_action_pin"/>
-            <TextView
+            <RelativeLayout
                 android:layout_width="wrap_content"
-                android:id="@+id/pinText"
-                android:text="Pin."
-                android:textSize="11sp"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="15dp"
-                android:layout_height="wrap_content" />
-        </RelativeLayout>
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/pinBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_action_pin"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/pinText"
+                    android:text="Pin."
+                    android:textSize="11sp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
 
-            <ImageButton
-                android:id="@+id/setingsBtn"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/ic_action_settings"/>
-            <TextView
+            <RelativeLayout
                 android:layout_width="wrap_content"
-                android:id="@+id/settingsText"
-                android:text="Settings."
-                android:textSize="11sp"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="5dp"
-                android:layout_height="wrap_content" />
-        </RelativeLayout>
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/settingsBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_action_settings"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/settingsText"
+                    android:text="Settings."
+                    android:textSize="11sp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 
