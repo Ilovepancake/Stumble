@@ -102,6 +102,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Toast.makeText(mContext,"Share",Toast.LENGTH_SHORT).show();
         }else if(view.equals(mPinBtn)){
             Toast.makeText(mContext,"Pin",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(MainActivity.this,LoginActivty.class);
+            startActivity(intent);
         }else if(view.equals(mSettingsBtn)){
             openSettingsActivity();
         }
