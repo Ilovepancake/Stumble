@@ -20,7 +20,7 @@
         <activity android:name=".Activities.SignupActivity" />
         <activity android:name=".Activities.SettingsActivity" />
         <activity android:name=".Activities.SplashActivity" />
-        <activity android:name=".Activities.FilterContentActivity"></activity>
+        <activity android:name=".Activities.FilterContentActivity" />
     </application>
 
 </manifest>
